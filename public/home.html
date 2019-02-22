@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Graph tuple</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<script type="text/javascript" src="home.js"></script>
+	<header id="main" >
+		<div class="container">
+		<h1 id="head">Creating Triples<span style="display: none"></span></h1>
+		</div>
+	</header>
+	
+	<div class="form1">
+	<form action="/" id="idForm1" enctype="multipart/form-data" name="myForm" method="post" class="formc1">
+	<label>Graph Name  :</label> 
+	<input type="text" id="graph" name="graph" />
+	
+	<label>Choose File : </label>
+	<input type="file" id="fileUpload" name="inputfile" value="Choose fileName" accept=".csv" />
+
+	<label>Upload :</label>
+	<input type="submit" id="upload" value="Upload" onclick="h.validate()" />
+	
+	</form>
+	<hr />
+	</div>
+
+	
+	<div id="print" class="form1" >   
+ 	</div>
+  	<div id="response"></div>
+ 	
+ 	
+ 
+  
+
+</body>
+</html>
